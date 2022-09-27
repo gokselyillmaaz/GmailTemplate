@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp">
+    
+    <RelativeLayout
+        android:id="@+id/relative_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp">
+
+        <ImageView
+            android:id="@+id/profil_fotografi"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/gonderen_isim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:text="Line 1"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_toEndOf="@id/profil_fotografi"
+            android:layout_marginLeft="10dp"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/konu_basligi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gonderen_isim"
+            android:layout_toEndOf="@id/profil_fotografi"
+            android:maxLines="1"
+            android:text="Line 2"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="11sp"
+            android:layout_marginLeft="10dp"
+            tools:ignore="RtlCompat" />
+        <TextView
+            android:id="@+id/mail_mesaji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/konu_basligi"
+            android:layout_toEndOf="@id/profil_fotografi"
+            android:maxLines="1"
+            android:text="Line 2"
+            android:textColor="@color/gray"
+            android:textSize="11sp"
+            android:layout_marginLeft="10dp"
+            tools:ignore="RtlCompat" />
+
+        <ImageView
+            android:id="@+id/yildiz_"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="350dp"
+            android:padding="2dp"
+            android:src="@drawable/yildiz" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

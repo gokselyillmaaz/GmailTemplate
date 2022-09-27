@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Vize_Gmail</string>
+    <string name="olustur">Oluştur</string>
+    <string name="gonderen">Gönderen</string>
+    <string name="alici">Alıcı</string>
+    <string name="ileti">İletinizi yazın</string>
+    <string name="postalarda_ara">Postalarda arama yapın</string>
+</resources>
